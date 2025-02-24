@@ -1,0 +1,16 @@
+.projects-section {
+  padding: 80px 20px;
+  background: #f9f9f9;
+}
+
+.projects-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
